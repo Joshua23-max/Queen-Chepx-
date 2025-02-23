@@ -3,9 +3,9 @@
 You don't have to set this if you deploy using heroku because you can simply set them in environment variables, also don't forget to sleep */
 
 
-const session = process.env.SESSION || '';
+const session = process.env.SESSION || 'TiIxCAQQ#JlfW0fws0vSMeH5LhlMyPMVu1M_FUvblXSfIGUfzktA';
 
-const prefix = process.env.PREFIX || '';
+const prefix = process.env.PREFIX || '.';
 const mycode = process.env.CODE || "254";
 const author = process.env.STICKER_AUTHOR || 'BERA';
 const packname = process.env.PACKNAME || 'keith';
@@ -29,8 +29,8 @@ const antibot = process.env.ANTIBOT || 'true';
 const anticall = process.env.ANTICALL || 'true';
 const antibad = process.env.ANTI_BAD_WORD || 'true';
 const antidelete = process.env.ANTIDELETE || 'true';
-const autoview = process.env.AUTOVIEW_STATUS || 'true';
-const autolike = process.env.AUTOLIKE_STATUS || 'true';
+const autoview = process.env.AUTOVIEW_STATUS || 'false';
+const autolike = process.env.AUTOLIKE_STATUS || 'false';
 const permit = process.env.PM_PERMIT || 'true';
 const autoread = process.env.AUTOREAD || 'true';
 const autobio = process.env.AUTOBIO || 'false';
